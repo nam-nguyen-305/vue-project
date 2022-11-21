@@ -15,7 +15,11 @@ import SupportIcon from "./icons/IconSupport.vue";
     <template #heading>Documentation</template>
 
     Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener"
+    <a
+      href="https://vuejs.org/"
+      target="_blank"
+      rel="noopener"
+      class="font-bold"
       >official documentation</a
     >
     provides you with all information you need to get started.
@@ -114,8 +118,12 @@ import SupportIcon from "./icons/IconSupport.vue";
 
     As an independent project, Vue relies on community backing for its
     sustainability. You can help us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener"
-      >becoming a sponsor</a
+    <a
+      href="https://vuejs.org/sponsor/"
+      target="_blank"
+      rel="noopener"
+      class="font-bold"
+      >becoming a sponsors</a
     >.
   </WelcomeItem>
 </template>
